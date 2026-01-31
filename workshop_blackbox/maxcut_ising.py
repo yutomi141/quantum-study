@@ -83,6 +83,8 @@ def main():
         
         # 数式上の記号 s に、計算結果の値(+1, -1)を代入して表示
         print(f"Spins: {spins.evaluate(result.best.values)}")
+    else:
+        print("No solution found.")
 
 if __name__ == "__main__":
     main()
